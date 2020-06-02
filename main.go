@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gabielfemi/my-version-social-tracker/tracker"
 	"log"
 	"net/http"
@@ -21,6 +22,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 func Search(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "POST" {
+		_, _ = fmt.Fprintf(w, "You searched for %s", r.FormValue("searchPhrase"))
+
 		http.Redirect(w, r, "/", 301)
 	}
 
