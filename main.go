@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/gabielfemi/my-version-social-tracker/tracker"
 	"log"
-	"my-version-social-tracker/tracker"
 	"net/http"
 )
 
