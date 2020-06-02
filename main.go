@@ -8,7 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", Index)
-
+	http.HandleFunc("/search", Search)
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 	log.Println("Listening on 127.0.0.1:8000")
@@ -17,4 +17,8 @@ func main() {
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	tracker.Render(w, "index.html", r)
+}
+
+func Search(w http.ResponseWriter, r *http.Request) {
+	http.Redirect(w, r, "/", 301)
 }
