@@ -1,15 +1,20 @@
 package main
 
 import (
-	"fmt"
+	"log"
+	"my-version-social-tracker/tracker"
 	"net/http"
 )
 
 func main() {
-	fmt.Println("Hello world")
-	http.HandleFunc("'/", Index)
+	http.HandleFunc("/", Index)
+
+	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
+
+	log.Println("Listening on 127.0.0.1:8000")
+	_ = http.ListenAndServe(":8000", nil)
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-
+	tracker.Render(w, "index.html", r)
 }

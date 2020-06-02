@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func render(w http.ResponseWriter, tmpl string, r *http.Request) {
+func Render(w http.ResponseWriter, tmpl string, r *http.Request) {
 	t, err := template.ParseFiles(tmpl)
 	if err != nil {
 		log.Fatalln(err)
