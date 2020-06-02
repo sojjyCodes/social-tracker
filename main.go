@@ -23,6 +23,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 func Search(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "POST" {
 		_, _ = fmt.Fprintf(w, "You searched for %s", r.FormValue("searchPhrase"))
+	} else {
+		http.Redirect(w, r , "/", 301)
 	}
 
 }
