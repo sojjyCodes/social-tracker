@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcb0b2a-6211-414a-8c60-eaa45b1f7a6c" name="Default Changelist" comment="" />
+    <list default="true" id="fdcb0b2a-6211-414a-8c60-eaa45b1f7a6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,9 +81,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="584" y="262" width="330" height="282" key="#Vim_Emulation" timestamp="1591039754228">
-      <screen x="0" y="31" width="1366" height="737" />
+    <state x="275" y="54" width="816" height="668" key="#Options" timestamp="1591106335804">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="275" y="54" width="816" height="668" key="#Options/0.0.1366.768@0.0.1366.768" timestamp="1591106335804" />
+    <state x="584" y="241" width="330" height="282" key="#Vim_Emulation" timestamp="1591106427716">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="584" y="241" key="#Vim_Emulation/0.0.1366.768@0.0.1366.768" timestamp="1591106427716" />
     <state x="584" y="262" width="330" height="282" key="#Vim_Emulation/0.31.1366.737@0.31.1366.737" timestamp="1591039754228" />
     <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl" timestamp="1591040265670">
       <screen x="0" y="0" width="1366" height="768" />
@@ -96,9 +103,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="517" y="260" width="639" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.768@0.0.1366.768" timestamp="1591040267912" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591099293984">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591106297761">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591099293984" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591106297761" />
   </component>
 </project>
