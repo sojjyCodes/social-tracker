@@ -20,5 +20,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 }
 
 func Search(w http.ResponseWriter, r *http.Request) {
-	http.Redirect(w, r, "/", 301)
+	if r.Method == "POST" {
+		http.Redirect(w, r, "/", 301)
+	}
+
 }
