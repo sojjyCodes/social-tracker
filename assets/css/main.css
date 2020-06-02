@@ -2,3 +2,6 @@
     border-top: 4px solid red;
     padding-top: 5px;
 }
+.badge-danger {
+    background-color: #c9302c;
+}
