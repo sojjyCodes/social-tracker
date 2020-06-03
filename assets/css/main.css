@@ -30,3 +30,13 @@ body {
     margin: 15% auto;
     background-color: #f0ad4e;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
