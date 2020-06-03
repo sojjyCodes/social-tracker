@@ -1,7 +1,47 @@
-.search-form {
-    border-top: 4px solid red;
-    padding-top: 5px;
+.center {
+
+    padding: 10px;
+    text-align: center;
 }
-.badge-danger {
-    background-color: #c9302c;
+.welcome-message {
+    margin: auto;
+    padding: 70px 0;
+    width: 50%;
+    border: 3px solid crimson;
+    background-color: black;
+    color: #c9302c;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.action-btn {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+body {
+    margin: 15% auto;
+    background-color: #f0ad4e;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.find-btn {
+    background-color: firebrick;
+    color: #ffffff;
 }

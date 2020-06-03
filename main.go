@@ -10,7 +10,7 @@ import (
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/", Index)
-	router.HandleFunc("/search", Search)
+	router.HandleFunc("/search", Search).Methods("GET")
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 
@@ -29,11 +29,5 @@ func Index(w http.ResponseWriter, r *http.Request) {
 }
 
 func Search(w http.ResponseWriter, r *http.Request) {
-	if r.Method == "POST" {
-		//_, _ = fmt.Fprintf(w, "You searched for %s", r.FormValue("searchPhrase"))
-		tracker.Render(w, "search.html", r)
-	} else {
-		http.Redirect(w, r , "/", 301)
-	}
-
+	tracker.Render(w, "search.html", r)
 }
