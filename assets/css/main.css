@@ -18,19 +18,15 @@
     font-size: 20px;
 }
 
-.welcome-message:hover {
-    margin: auto;
-    padding: 70px 0;
-    width: 50%;
-    border: 3px solid crimson;
-    background-color: white;
-    color: #c9302c;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-}
 
+.action-btn {
+    background-color: white;
+    animation: ease-out;
+    border-radius: 10px;
+    padding: 10px;
+    color: #c9302c;
+    font-size: large;
+}
 body {
     margin: 15% auto;
     background-color: #f0ad4e;
