@@ -2,12 +2,14 @@ package main
 
 import (
 	"github.com/gabielfemi/my-version-social-tracker/tracker"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 )
 
 func main() {
-	http.HandleFunc("/", Index)
+	router := mux.NewRouter()
+	router.HandleFunc("/", Index)
 	http.HandleFunc("/search", Search)
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 

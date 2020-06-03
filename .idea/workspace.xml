@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdcb0b2a-6211-414a-8c60-eaa45b1f7a6c" name="Default Changelist" comment="" />
+    <list default="true" id="fdcb0b2a-6211-414a-8c60-eaa45b1f7a6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,22 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/gabielfemi/my-version-social-tracker" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="social-tracker" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/gabielfemi/my-version-social-tracker" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/gabielfemi/my-version-social-tracker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,10 +106,26 @@
     </state>
     <state x="584" y="241" key="#Vim_Emulation/0.0.1366.768@0.0.1366.768" timestamp="1591106427716" />
     <state x="584" y="262" width="330" height="282" key="#Vim_Emulation/0.31.1366.737@0.31.1366.737" timestamp="1591039754228" />
-    <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl" timestamp="1591040265670">
+    <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl" timestamp="1591202487878">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591040265670" />
+    <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591202487878" />
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1591202510342">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591202510342" />
+    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1591202510342">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591202510342" />
+    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1591202510342">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591202510342" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1591202510342">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591202510342" />
     <state x="266" y="4" width="1022" height="733" key="SettingsEditor" timestamp="1591040270400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
