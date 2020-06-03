@@ -18,10 +18,11 @@
     border-radius: 12px;
 }
 
-
+#searchBtn {
+    cursor: zoom-in;
+}
 .action-btn {
     background-color: white;
-    cursor: zoom-in;
     padding: 10px;
     color: #000000;
     font-weight: bold;
