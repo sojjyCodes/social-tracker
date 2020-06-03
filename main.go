@@ -10,7 +10,7 @@ import (
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/", Index)
-	http.HandleFunc("/search", Search)
+	router.HandleFunc("/search", Search)
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 	log.Println("Listening on 127.0.0.1:8000")
