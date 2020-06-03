@@ -45,3 +45,20 @@ footer {
     background-color: firebrick;
     color: #ffffff;
 }
+
+#searchInput {
+    border: 0;
+    padding: 12px;
+    background-color: #f7e1b5;
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 12px;
+    width: 100px;
+    transition: ease-in-out, width .35s ease-in-out;
+    /*transition: ease, width .35s ease-in-out;*/
+}
+
+#searchInput:focus {
+    width: 250px;
+}
