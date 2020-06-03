@@ -30,5 +30,4 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 func Search(w http.ResponseWriter, r *http.Request) {
 	tracker.Render(w, "search.html", r)
-
 }
