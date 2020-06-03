@@ -56,11 +56,11 @@ footer {
     color: #ffffff;
     font-weight: bold;
     font-size: 17px;
-    width: 100px;
+    width: 250px;
     transition: ease-in-out, width .35s ease-in-out;
     /*transition: ease, width .35s ease-in-out;*/
 }
 
 #searchInput:focus {
-    width: 250px;
+    width: 330px;
 }
