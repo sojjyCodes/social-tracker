@@ -7,13 +7,15 @@
     margin: auto;
     padding: 70px 0;
     width: 50%;
-    border: 3px solid crimson;
-    background-color: black;
+
+    background-color: white;
+    box-shadow: 5px 4px 4px black;
     color: #c9302c;
     text-align: center;
     text-transform: uppercase;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
+    border-radius: 12px;
 }
 
 
@@ -47,13 +49,13 @@ footer {
 }
 
 #searchInput {
-    border: 0;
+    border: 1px solid white;
+    border-radius: 12px;
     padding: 12px;
-    background-color: #f7e1b5;
-    color: #000000;
+    background-color: black;
+    color: #ffffff;
     font-weight: bold;
     font-size: 17px;
-    border-radius: 12px;
     width: 100px;
     transition: ease-in-out, width .35s ease-in-out;
     /*transition: ease, width .35s ease-in-out;*/
