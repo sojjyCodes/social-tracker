@@ -40,3 +40,8 @@ footer {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff;
 }
+
+.find-btn {
+    background-color: firebrick;
+    color: #ffffff;
+}
