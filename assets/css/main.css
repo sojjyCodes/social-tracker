@@ -21,7 +21,7 @@
 
 .action-btn {
     background-color: white;
-    border-radius: 10px;
+    cursor: zoom-in;
     padding: 10px;
     color: #000000;
     font-weight: bold;
@@ -46,11 +46,13 @@ footer {
 .find-btn {
     background-color: firebrick;
     color: #ffffff;
+    border: 0;
+    box-shadow: 0 0;
 }
 
 #searchInput {
     border: 1px solid white;
-    border-radius: 12px;
+
     padding: 12px;
     background-color: black;
     color: #ffffff;
