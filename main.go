@@ -10,7 +10,7 @@ import (
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/", Index)
-	router.HandleFunc("/search", Search)
+	router.HandleFunc("/search", Search).Methods("GET")
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 
