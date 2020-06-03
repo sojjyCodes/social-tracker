@@ -13,8 +13,15 @@ func main() {
 	router.HandleFunc("/search", Search)
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
+
+	server := &http.Server{
+		Addr: "127.0.0.1:8000",
+		Handler: router,
+
+	}
 	log.Println("Listening on 127.0.0.1:8000")
-	_ = http.ListenAndServe(":8000", nil)
+	log.Fatalln(server.ListenAndServe())
+
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
