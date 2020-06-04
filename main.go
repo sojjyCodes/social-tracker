@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gabielfemi/my-version-social-tracker/tracker"
 	"github.com/gorilla/mux"
 	"log"
@@ -11,6 +12,7 @@ func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/", Index)
 	router.HandleFunc("/search", Search).Methods("GET")
+	router.HandleFunc("/search", Find).Methods("POST")
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 
@@ -30,4 +32,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 func Search(w http.ResponseWriter, r *http.Request) {
 	tracker.Render(w, "search.html", r)
+}
+
+func Find(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("I am a POST request handler")
 }
