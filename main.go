@@ -20,7 +20,7 @@ func main() {
 		Handler: router,
 
 	}
-	log.Println("Listening on 127.0.0.1:8000")
+	log.Println("Listening on", server.Addr)
 	log.Fatalln(server.ListenAndServe())
 
 }
