@@ -18,6 +18,8 @@ func Search(w http.ResponseWriter, r *http.Request) {
 func Find(w http.ResponseWriter, r *http.Request) {
 	_ = r.ParseForm()
 	userName := r.FormValue("findUser")
+	userInfo := GitHubInfo{}
+	userInfo.Name = userName
 	fmt.Println("Your username is", userName)
 	Render(w, "results.html", r)
 }
@@ -30,4 +32,13 @@ func Render(w http.ResponseWriter, tmpl string, r *http.Request) {
 	}
 
 	err = t.Execute(w, nil)
+}
+
+func RenderWithView(w http.ResponseWriter, tmpl string, r *http.Request, data interface{})  {
+	t, err := template.ParseFiles(tmpl)
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	err = t.Execute(w, data)
 }
