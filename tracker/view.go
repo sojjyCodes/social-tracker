@@ -1,7 +1,6 @@
 package tracker
 
 import (
-	"fmt"
 	"html/template"
 	"log"
 	"net/http"
