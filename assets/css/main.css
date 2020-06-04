@@ -3,6 +3,29 @@
     padding: 10px;
     text-align: center;
 }
+#header {
+    margin: 0;
+    padding: 0;
+}
+.hr-1 {
+    width: 72%;
+    color: #c9302c;
+    background-color: black;
+    margin: auto;
+}
+.search-results {
+    margin: auto;
+    padding-bottom: 0;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 4px 4px black;
+    color: #c9302c;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+}
 .welcome-message {
     margin: auto;
     padding: 70px 0;

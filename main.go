@@ -38,5 +38,5 @@ func Find(w http.ResponseWriter, r *http.Request) {
 	_ = r.ParseForm()
 	userName := r.FormValue("findUser")
 	fmt.Println("Your username is", userName)
-	w.WriteHeader(200)
+	tracker.Render(w, "results.html", r)
 }
