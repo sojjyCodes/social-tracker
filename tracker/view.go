@@ -21,7 +21,7 @@ func Find(w http.ResponseWriter, r *http.Request) {
 	userInfo := GitHubInfo{}
 	userInfo.Name = userName
 	fmt.Println("Your username is", userName)
-	Render(w, "results.html", r)
+	RenderWithView(w, "results.html", r, userInfo)
 }
 
 
