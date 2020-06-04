@@ -26,17 +26,3 @@ func main() {
 
 }
 
-func Index(w http.ResponseWriter, r *http.Request) {
-	tracker.Render(w, "index.html", r)
-}
-
-func Search(w http.ResponseWriter, r *http.Request) {
-	tracker.Render(w, "search.html", r)
-}
-
-func Find(w http.ResponseWriter, r *http.Request) {
-	_ = r.ParseForm()
-	userName := r.FormValue("findUser")
-	fmt.Println("Your username is", userName)
-	tracker.Render(w, "results.html", r)
-}
