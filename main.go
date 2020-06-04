@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/gabielfemi/my-version-social-tracker/tracker"
 	"github.com/gorilla/mux"
 	"log"
@@ -10,9 +9,9 @@ import (
 
 func main() {
 	router := mux.NewRouter()
-	router.HandleFunc("/", Index)
-	router.HandleFunc("/search", Search).Methods("GET")
-	router.HandleFunc("/search", Find).Methods("POST")
+	router.HandleFunc("/", tracker.Index)
+	router.HandleFunc("/search", tracker.Search).Methods("GET")
+	router.HandleFunc("/search", tracker.Find).Methods("POST")
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 
