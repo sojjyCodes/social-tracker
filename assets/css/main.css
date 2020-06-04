@@ -98,6 +98,10 @@ body {
     margin: 15% auto;
     background-color: #f0ad4e;
 }
+#footer-text {
+    color: #f0ad4e;
+    margin: 0;
+}
 footer {
     position: fixed;
     left: 0;
@@ -106,7 +110,7 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .find-btn {
