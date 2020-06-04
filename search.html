@@ -9,7 +9,7 @@
 <body>
 
 <div class="welcome-message">
-    <form action="/search" method="post">
+    <form action="/search" method="post" name="searchForm">
         <input type="text" name="findUser" id = "searchInput" placeholder="Enter GitHub username" required>
         <input id = "searchBtn" type="submit" class="action-btn find-btn" value="Find">
 
@@ -20,5 +20,8 @@
 <footer class="center">
     <p>Crafted by Ebenezer Alagbe and Gabriel Akinyosoye &copy2020</p>
 </footer>
+<script>
+    document.searchForm.findUser.focus()
+</script>
 </body>
 </html>
