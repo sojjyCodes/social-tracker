@@ -25,6 +25,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +47,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -108,22 +118,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="618" y="160" width="436" height="489" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591202487878" />
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1591210959536">
+    <state width="1322" height="220" key="GridCell.Tab.0.bottom" timestamp="1591293060319">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591210959536" />
-    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1591210959536">
+    <state width="1322" height="220" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591293060319" />
+    <state width="1322" height="220" key="GridCell.Tab.0.center" timestamp="1591293060319">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591210959536" />
-    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1591210959535">
+    <state width="1322" height="220" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591293060319" />
+    <state width="1322" height="220" key="GridCell.Tab.0.left" timestamp="1591293060317">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591210959535" />
-    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1591210959536">
+    <state width="1322" height="220" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591293060317" />
+    <state width="1322" height="220" key="GridCell.Tab.0.right" timestamp="1591293060319">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591210959536" />
+    <state width="1322" height="220" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591293060319" />
+    <state width="1322" height="220" key="GridCell.Tab.1.bottom" timestamp="1591293060321">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="220" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591293060321" />
+    <state width="1322" height="220" key="GridCell.Tab.1.center" timestamp="1591293060320">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="220" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1591293060320" />
+    <state width="1322" height="220" key="GridCell.Tab.1.left" timestamp="1591293060320">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="220" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1591293060320" />
+    <state width="1322" height="220" key="GridCell.Tab.1.right" timestamp="1591293060320">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="220" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1591293060320" />
     <state x="266" y="4" width="1022" height="733" key="SettingsEditor" timestamp="1591040270400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -9,8 +9,9 @@ import (
 
 func main() {
 	router := mux.NewRouter()
-	router.HandleFunc("/", Index)
-	router.HandleFunc("/search", Search).Methods("GET")
+	router.HandleFunc("/", tracker.Index)
+	router.HandleFunc("/search", tracker.Search).Methods("GET")
+	router.HandleFunc("/search", tracker.Find).Methods("POST")
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 
@@ -24,10 +25,3 @@ func main() {
 
 }
 
-func Index(w http.ResponseWriter, r *http.Request) {
-	tracker.Render(w, "index.html", r)
-}
-
-func Search(w http.ResponseWriter, r *http.Request) {
-	tracker.Render(w, "search.html", r)
-}
