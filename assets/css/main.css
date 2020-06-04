@@ -10,8 +10,13 @@
 .hr-1 {
     width: 72%;
     color: #c9302c;
-    background-color: black;
     margin: auto;
+}
+
+.fancy-black-text {
+    color: black;
+    font-family: Arial, serif;
+    font-weight: 600;
 }
 .search-results {
     margin: auto;
