@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gabielfemi/my-version-social-tracker/tracker"
+	"github.com/GabielFemi/my-version-social-tracker/tracker"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
