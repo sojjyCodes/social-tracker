@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	router := mux.NewRouter()
 	router.HandleFunc("/", tracker.Index)
 	router.HandleFunc("/search", tracker.Search).Methods("GET")
