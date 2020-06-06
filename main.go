@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/gabielfemi/my-version-social-tracker/tracker"
+	"github.com/GabielFemi/my-version-social-tracker/tracker"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 )
 
 func main() {
+
 	router := mux.NewRouter()
 	router.HandleFunc("/", tracker.Index)
 	router.HandleFunc("/search", tracker.Search).Methods("GET")
@@ -20,7 +21,7 @@ func main() {
 		Handler: router,
 
 	}
-	log.Println("Listening on 127.0.0.1:8000")
+	log.Println("Listening on", server.Addr)
 	log.Fatalln(server.ListenAndServe())
 
 }
