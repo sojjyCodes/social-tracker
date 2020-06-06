@@ -1,7 +1,7 @@
 .center {
 
-    padding: 10px;
     text-align: center;
+    margin: 0 auto;
 }
 #header {
     margin: 0;
@@ -100,6 +100,7 @@ body {
 }
 #footer-text {
     color: #000000;
+    padding: 10px;
     margin: 0;
 }
 footer {
@@ -119,7 +120,10 @@ footer {
     border: 0;
     box-shadow: 0 0;
 }
-
+#searchAgain {
+    border: 5px solid #f0ad4e;
+    margin: 20px;
+}
 #searchInput {
     border: 2px solid black;
     border-radius: 12px;
