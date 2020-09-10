@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search results</title>
+        <title></title>
         {% load static %}
 
         <link
@@ -13,26 +13,24 @@
 
     <body>
         <div class="search-results">
-            <form action="/search" method="post">
-                <p id="header">search results</p>
-                <hr class="hr-1" />
-                <p>
-                    Details for
-                    <span
-                        style="
-                            color: black;
-                            font-weight: bold;
-                            text-decoration: underline;
-                            text-transform: none;
-                        "
-                        >{{ .Name }}</span
-                    >
-                </p>
-                <p class="fancy-black-text">
-                    12 followers, 60 repositories, 810 contributions in the past
-                    year
-                </p>
-            </form>
+            <p id="header">search results</p>
+            <hr class="hr-1" />
+            <p>
+                Details for
+                <span
+                    style="
+                        color: black;
+                        font-weight: bold;
+                        text-decoration: underline;
+                        text-transform: none;
+                    "
+                    >{{ .Name }}</span
+                >
+            </p>
+            <p class="fancy-black-text">
+                12 followers, 60 repositories, 810 contributions in the past
+                year
+            </p>
         </div>
 
         <footer class="center">
