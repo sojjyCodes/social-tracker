@@ -21,6 +21,7 @@
     margin: auto;
     padding-bottom: 0;
     width: 50%;
+    height: 320px;
     background-color: white;
     box-shadow: 5px 4px 4px black;
     color: #c9302c;
@@ -137,4 +138,8 @@ footer {
 
 #searchInput:focus {
     width: 330px;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
