@@ -26,10 +26,12 @@
                         >{{apis.username}}</span
                     >
                 </p>
-                <p class="fancy-black-text">
-                    48 followers, 42 repositories, 342 contributions in the past
-                    year
+
+                <div class="fancy-black-text">
+                     {{  apis.followers  }} followers, <p>{{  apis.repository  }} repositories, </p> <p>{{ apis.contribution }} contributions</p> <p>the past,  
+                    year</p>
                 </p>
+            </div>
             </form>
         </div>
 
