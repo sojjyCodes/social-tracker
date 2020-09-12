@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% load static %} {% for api_keys in api_key %}
-        <title>{{api_keys.username}}</title>
+        {% load static %} {% for apis in api %}
+        <title>social-tracker</title>
         <link
             rel="stylesheet"
             type="text/css"
@@ -23,7 +23,7 @@
                             text-decoration: underline;
                             text-transform: none;
                         "
-                        ></span
+                        >{{apis.username}}</span
                     >
                 </p>
                 <p class="fancy-black-text">

@@ -5,36 +5,29 @@ from pprint import pprint
 
 # Create your views here.
 
-title = [{
-    "title": "social-tracker"
-}]
-
-api_key = [{
-   " username": "sojjyCodes",
+api = [{
+   "title": "social-tracker",
+   "username": "sojjyCodes"
 }]
 
 def home(request):
     home_title = {
-        'title': title
+        'api': api
     }
 
     return render(request, 'social-tracker/index.html', home_title)
 
 def search(request):
     search_title = {
-        'title': title
+        'api': api
 }
     return render(request, 'social-tracker/search.html', search_title)
 
 def result(request):
     result_title = {
-       'title': title
-    }
-    authentication = {
-        'api_key': api_key
-    }
-
-    return render(request, 'social-tracker/results.html', authentication)
+        'api': api
+}
+    return render(request, 'social-tracker/results.html', result_title)
 
 # def api(request):
 #     # github username
