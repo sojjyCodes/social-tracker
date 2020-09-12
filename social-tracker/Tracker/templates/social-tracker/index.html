@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Social-Tracker</title>
-        {% load static %}
+        {% load static %} {% for titles in title %}
+        <title>{{titles.title}}</title>
 
         <link
             rel="stylesheet"
@@ -14,7 +14,7 @@
     <body>
         <div class="welcome-message">
             <p class="lead">Welcome to Social Tracker</p>
-            <a class="action-btn-home" href="/home/search">Start off</a>
+            <a class="action-btn-home" href="/search">Start off</a>
         </div>
 
         <footer class="center">
@@ -22,5 +22,6 @@
                 Crafted by Ebenezer Alagbe and Gabriel Akinyosoye &copy2020
             </p>
         </footer>
+        {% endfor %}
     </body>
 </html>
