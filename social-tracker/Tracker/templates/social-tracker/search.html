@@ -13,7 +13,11 @@
 
     <body>
         <div class="welcome-message">
-            <form action="/result" method="GET" name="searchForm">
+            <form
+                action="https://api.github.com/sojjyCodes"
+                method="GET"
+                name="searchForm"
+            >
                 <input
                     type="text"
                     name="findUser"
@@ -42,4 +46,10 @@
         </footer>
     </body>
     {% endfor %}
+    <script src="https://unpkg.com/axios/dist/axios.min.js">
+            axios({
+          url: 'https://api.github.com/',
+          method: 'get'
+        })
+    </script>
 </html>

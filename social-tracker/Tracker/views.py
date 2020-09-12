@@ -8,9 +8,9 @@ from pprint import pprint
 api = [{
    "title": "social-tracker",
    "username": "sojjyCodes",
-   "followers": 48,
-   "repository": 42,
-   "contribution": 346, 
+   "followers": 50,
+   "repository": 2,
+   "contribution": 346,
 }]
 
 def home(request):

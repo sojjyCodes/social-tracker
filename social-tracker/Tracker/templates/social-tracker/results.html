@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% load static %} {% for apis in api %}
+        
+        {% load static %} 
+        {% for apis in api %} <!-- Call the python function -->
         <title>{{ apis.title }}</title>
         <link
             rel="stylesheet"
@@ -13,13 +15,13 @@
         
         <div class="search-results">
                 <p id="header">search results</p>
-                <hr class="hr-1" />
+                <hr />
                 <p>
                     Details for
                     <span
                         style="
                             color: black;
-                            font-weight: bold;
+                            font-weight: bolder;
                             text-decoration: underline;
                             text-transform: none;
                         "
