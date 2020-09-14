@@ -1,7 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import requests
-from pprint import pprint
 
 # Create your views here.
 
@@ -31,14 +29,13 @@ def result(request):
         'api': api
 }
     return render(request, 'social-tracker/results.html', result_title)
-
 # def api(request):
-#     # github username
-#     username = "sojjyCodes"
-#     # url to request
-#     url = f"https://api.github.com/users/{username}"
-#     # make the request and return the json
+#      github username
+#      username = "sojjyCodes"
+#      url to request
+#      url = f"https://api.github.com/users/{username}"
+#      # make the request and return the json
 #     user_data = requests.get(url).json()
 
-#     # pretty print JSON data
-#     pprint(user_data)
+# #     # pretty print JSON data
+# #     pprint(user_data)

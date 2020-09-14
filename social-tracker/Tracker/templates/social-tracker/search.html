@@ -13,14 +13,10 @@
 
     <body>
         <div class="welcome-message">
-            <form
-                action="https://api.github.com/sojjyCodes"
-                method="GET"
-                name="searchForm"
-            >
+            <form action="/result/" method="GET" name="searchForm">
                 <input
                     type="text"
-                    name="findUser"
+                    name="{search.username}"
                     id="searchInput"
                     placeholder="Enter GitHub username"
                     required
