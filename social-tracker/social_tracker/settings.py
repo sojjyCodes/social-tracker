@@ -38,11 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-     'rest_framework',
+    'rest_framework',
     'django.contrib.staticfiles',
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CORS_ORIGIN_ALLOW_ALL = False
+
+CORS_ORIGIN_WHITELIST = (
+       'localhost:3000',
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
